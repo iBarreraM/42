@@ -2,7 +2,7 @@
 TARGET = libft.a
 
 # Lista de archivos fuente
-SRCS = ft_isalpha.c ft_isdigit.c
+SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c
 
 # Lista de archivos objeto
 OBJS = $(SRCS:.c=.o)
