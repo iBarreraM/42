@@ -6,7 +6,7 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 15:47:25 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/04/12 15:23:38 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/04/12 16:04:10 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 int	ft_isalnum(int c)
 {
-	if(ft_isalpha(c) == 0 || ft_isdigit(c) == 1)
+	if(ft_isalpha(c) == 1 || ft_isdigit(c) == 1)
 		return (1);
 	else return (0);
 }
