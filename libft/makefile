@@ -2,10 +2,12 @@
 NAME = libft.a
 
 # Lista de archivos fuente
-SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_strlen.c ft_memset.c
+SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_strlen.c ft_memset.c ft_bzero.c ft_memcpy.c
 
 # Lista de archivos objeto
 OBJS = $(SRCS:.c=.o)
+
+all: $(NAME)
 
 # Compilador y opciones
 CC = gcc

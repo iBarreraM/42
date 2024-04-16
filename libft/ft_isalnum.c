@@ -6,12 +6,10 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 15:47:25 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/04/12 16:04:10 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/04/16 18:16:29 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <ctype.h>
 #include "libft.h"
 
 int	ft_isalnum(int c)
