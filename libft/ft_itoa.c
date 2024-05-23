@@ -6,55 +6,52 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 10:34:51 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/14 10:50:34 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/23 12:57:49 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	ft_sizenum(long number)
-{
-	int	i;
+char			*ft_itoa(int n);
 
-	i = 1;
-	if (number < 0)
+static size_t	len_int(int n)
+{
+	size_t	len;
+
+	len = 0;
+	if (n <= 0)
+		len++;
+	while (n != 0)
 	{
-		i++;
-		number *= -1;
+		len++;
+		n = n / 10;
 	}
-	while (number > 9)
-	{
-		number /= 10;
-		i++;
-	}
-	return (i);
+	return (len);
 }
 
 char	*ft_itoa(int n)
 {
-	char	*string;
-	int		size;
-	long	long_n;
+	char	*str;
+	size_t	len;
+	long	nl;
 
-	long_n = (long)n;
-	size = ft_sizenum(long_n);
-	string = (char *)malloc(sizeof(char) * size + 1);
-	if (!string)
+	nl = n;
+	len = len_int(nl);
+	str = (char *)malloc(sizeof(char) * (len + 1));
+	if (!str)
 		return (NULL);
-	string[size] = '\0';
-	if (long_n < 0)
+	if (nl < 0)
 	{
-		string[0] = '-';
-		long_n *= -1;
+		str[0] = '-';
+		nl = -nl;
 	}
-	if (long_n == 0)
-		string[0] = '0';
-	while (long_n > 9)
+	str[len] = '\0';
+	str[--len] = (nl % 10) + '0';
+	nl /= 10;
+	while (nl != 0 && len--)
 	{
-		string[--size] = (long_n % 10) + '0';
-		long_n /= 10;
+		str[len] = (nl % 10) + '0';
+		nl /= 10;
 	}
-	if (long_n > 0)
-		string[--size] = long_n + '0';
-	return (string);
+	return (str);
 }
