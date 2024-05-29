@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ibarrera <ibarrera@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 13:03:03 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/23 13:03:09 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/29 11:03:10 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

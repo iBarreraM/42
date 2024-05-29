@@ -6,12 +6,11 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 15:13:37 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/04/12 15:42:31 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/29 10:54:41 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <ctype.h>
+#include "libft.h"
 
 int	ft_isdigit(int c)
 {

@@ -6,39 +6,30 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/18 11:38:15 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/04/18 16:19:23 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/29 10:59:44 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_memmove(void *dst, const void *src, size_t len)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	size_t m;
-	size_t s;
-	unsigned char *des = (unsigned char *)dst;
-	const char	*sor = (char*) src;
-	//const unsigned char *sor = (const unsigned char *) src;
-	if ((src == NULL && dst == NULL))
-		return (dst);
+	char		*d;
+	const char	*s;
 
-	if (dst < src + len)
+	d = (char *)dst;
+	s = (char *)src;
+	if (!dst && !src)
+		return (NULL);
+	if (d > s)
 	{
-		while (m < len)
-		{
-			des[m] = sor[m];
-			m++;
-		}
-	//	return (dst);
+		while (len--)
+			d[len] = s[len];
 	}
-		
-	//return(dst);
-
-	if (dst > src){
-		m = ft_strlen(src);
-		s = ft_strlen(dst);
-		while (m-- )
-			des[s] = sor[m];
+	else
+	{
+		while (len--)
+			*d++ = *s++;
 	}
-	return(dst);
+	return (dst);
 }

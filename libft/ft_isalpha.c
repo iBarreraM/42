@@ -6,7 +6,7 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 13:36:58 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/04/12 15:42:43 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/29 10:53:59 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	ft_isalpha(int c)

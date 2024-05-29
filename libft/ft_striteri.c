@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ibarrera <ibarrera@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 13:05:04 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/23 13:05:07 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/29 11:01:51 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
