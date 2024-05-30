@@ -6,7 +6,7 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/29 10:52:22 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/30 12:18:43 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 13:35:08 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_bzero(void *s, size_t n)
 	char	*p;
 	size_t	z;
 
-	*p = s;
+	p = s;
 	z = 0;
 	while (n--)
 	{
