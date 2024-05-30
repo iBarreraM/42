@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ibarrera <ibarrera@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 13:09:31 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/23 13:09:33 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 12:42:16 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

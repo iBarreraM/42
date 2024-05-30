@@ -6,19 +6,21 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/29 10:52:22 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/29 12:08:04 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 12:18:43 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include  "libft.h"
 
-void *ft_bzero(void *s, size_t n)
+void	*ft_bzero(void *s, size_t n)
 {
-	unsigned char *p = s;
-	size_t z;
+	char	*p;
+	size_t	z;
 
+	*p = s;
 	z = 0;
-	while (n--){
+	while (n--)
+	{
 		p[z] = '\0';
 		z++;
 	}

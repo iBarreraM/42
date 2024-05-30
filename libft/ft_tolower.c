@@ -6,7 +6,7 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 11:26:16 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/29 11:05:21 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 13:04:54 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,5 @@ int	ft_tolower(int c)
 	{
 		c = c + 32;
 	}
-		return (c);
+	return (c);
 }

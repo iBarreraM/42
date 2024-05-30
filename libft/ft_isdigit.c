@@ -6,7 +6,7 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 15:13:37 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/29 10:54:41 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 12:22:22 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,6 @@ int	ft_isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
 		return (1);
-	else 
+	else
 		return (0);
 }

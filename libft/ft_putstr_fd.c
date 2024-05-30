@@ -6,7 +6,7 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 14:14:32 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/29 11:00:49 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 12:52:42 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,4 +22,3 @@ void	ft_putstr_fd(char *s, int fd)
 	while (s[i])
 		write (fd, &s[i++], 1);
 }
-

@@ -6,7 +6,7 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/12 15:31:33 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/29 10:54:52 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 12:23:03 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_isprint(int c)
 {
-	if(c >= 32 && c <= 126 )
+	if (c >= 32 && c <= 126)
 		return (1);
 	else
 		return (0);

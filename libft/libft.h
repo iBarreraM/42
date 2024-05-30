@@ -6,7 +6,7 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 16:12:31 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/29 12:08:16 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 11:58:34 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,10 @@
 
 # include <stdio.h>
 # include <unistd.h>
-# include <stddef.h>
-# include <string.h>
+//# include <stddef.h>
+//# include <string.h>
 # include <stdlib.h>
-# include <stdint.h>
+//# include <stdint.h>
 # include <limits.h>
 
 typedef struct s_list

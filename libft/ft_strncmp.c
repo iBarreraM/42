@@ -6,7 +6,7 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 12:17:10 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/29 11:05:04 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 12:59:37 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	size_t a;
+	size_t	a;
 
 	a = 0;
 	while (n--)

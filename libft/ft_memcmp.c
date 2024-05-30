@@ -6,7 +6,7 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 12:18:42 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/29 10:59:18 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 12:45:46 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	size_t a;
-	const char *z1;
-	const char *z2;
+	size_t		a;
+	const char	*z1;
+	const char	*z2;
 
 	z1 = (const char *)s1;
 	z2 = (const char *)s2;

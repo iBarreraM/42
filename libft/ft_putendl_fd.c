@@ -6,10 +6,9 @@
 /*   By: ibarrera <ibarrera@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 14:13:43 by ibarrera          #+#    #+#             */
-/*   Updated: 2024/05/29 11:00:26 by ibarrera         ###   ########.fr       */
+/*   Updated: 2024/05/30 12:52:12 by ibarrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "libft.h"
 
@@ -24,4 +23,3 @@ void	ft_putendl_fd(char *s, int fd)
 		write (fd, &s[i++], 1);
 	write (fd, "\n", 1);
 }
-
